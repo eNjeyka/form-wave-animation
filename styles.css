@@ -8,3 +8,64 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+.container {
+    background-color: rgb(37, 37, 37);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(175, 85, 105);
+    padding: 15px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(175, 85, 105);
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px white solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: white;
+}
+
+.form-control input:focus, .form-control input:valid {
+    outline: 0;
+}
